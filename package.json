@@ -1,0 +1,17 @@
+{
+  "name": "missao-bravo",
+  "version": "1.0.0",
+  "description": "BluDot Missão Bravo I - Interactive Web Experience",
+  "main": "index.html",
+  "scripts": {
+    "start": "vercel dev",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "bludot",
+    "missao-bravo"
+  ],
+  "author": "",
+  "license": "ISC"
+}
