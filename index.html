@@ -427,8 +427,8 @@
   </main>
 
 <script>
-  // T-0: meia-noite de hoje, horário local
-  const start = new Date();
+  // T-0: 18 de maio de 2026, meia-noite, horário local
+  const start = new Date('2026-05-18T00:00:00');
   start.setHours(0,0,0,0);
   const end = new Date(start.getTime() + 92 * 24 * 60 * 60 * 1000);
   const total = end - start;
